@@ -99,4 +99,5 @@
             'Game Over',            // title
             'Done'                  // buttonName
         );
+	}
     </script>// JavaScript Document
