@@ -85,4 +85,18 @@
       alert('Failed because: ' + message);
     }
 
+
+ function alertDismissed() {
+            // do something
+        }
+
+    // Show a custom alertDismissed
+    //
+    function showAlert() {
+        navigator.notification.alert(
+            'You are the winner!',  // message
+            alertDismissed,         // callback
+            'Game Over',            // title
+            'Done'                  // buttonName
+        );
     </script>// JavaScript Document
